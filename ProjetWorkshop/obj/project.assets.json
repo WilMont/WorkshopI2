@@ -8,35 +8,29 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\bobra\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/mhi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EPSI\\Workshop\\I2\\ProjetWorkshop\\ProjetWorkshop\\ProjetWorkshop\\ProjetWorkshop.csproj",
+      "projectUniqueName": "/Users/mhi/Documents/WorkshopI2/ProjetWorkshop/ProjetWorkshop.csproj",
       "projectName": "ProjetWorkshop",
-      "projectPath": "D:\\EPSI\\Workshop\\I2\\ProjetWorkshop\\ProjetWorkshop\\ProjetWorkshop\\ProjetWorkshop.csproj",
-      "packagesPath": "C:\\Users\\bobra\\.nuget\\packages\\",
-      "outputPath": "D:\\EPSI\\Workshop\\I2\\ProjetWorkshop\\ProjetWorkshop\\ProjetWorkshop\\obj\\",
+      "projectPath": "/Users/mhi/Documents/WorkshopI2/ProjetWorkshop/ProjetWorkshop.csproj",
+      "packagesPath": "/Users/mhi/.nuget/packages/",
+      "outputPath": "/Users/mhi/Documents/WorkshopI2/ProjetWorkshop/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bobra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/mhi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -48,6 +42,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -58,12 +53,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[3.1.21, 3.1.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
